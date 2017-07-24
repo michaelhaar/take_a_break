@@ -1,0 +1,11 @@
+#this program will remind me to take some breaks from long working sessions on my computer
+
+import time
+import webbrowser
+
+MAX_WORKING_TIME = 2    #working time between breaks in hours
+FAVOURITE_VIDEO = 'https://www.youtube.com/watch?v=ZXsQAXx_ao0'     #url to display
+
+for i in range(3):
+    time.sleep(MAX_WORKING_TIME*60*60)
+    webbrowser.open(FAVOURITE_VIDEO)
