@@ -1,4 +1,4 @@
-#this program will remind me to take some breaks from long working sessions on my computer
+#this python program will remind me to take some breaks from long working sessions on my computer
 
 import time
 import webbrowser
